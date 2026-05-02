@@ -1,0 +1,36 @@
+
+[project]
+name = "designkit-utils"
+version = "0.1.0"
+description = "DesignKit's utilities. [main: designkit]"
+readme = "README.md"
+requires-python = ">=3.14"
+license.text = "MIT License"
+authors = [
+    { name = "Sheñey", email = "sheneyby2010@gmail.com" }
+]
+dependencies = []
+keywords = [
+    "design",
+    "pattern",
+    "utility",
+    "GoF",
+    "design pattern",
+    "software design",
+]
+classifiers = [
+    "Topic :: Utilities",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.14"
+]
+
+# [project.urls]
+# Homepage = "https://github.com/sheniey/designkit-utils"
+# Repository = "https://github.com/sheniey/designkit-utils"
+# Issues = "https://github.com/sheniey/designkit-utils/issues"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
