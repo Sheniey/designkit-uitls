@@ -12,3 +12,6 @@ __pycache__/
 
 # Sensitive files
 *.env
+
+# DevOps files
+publish.py
