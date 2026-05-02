@@ -9,8 +9,8 @@ from .colors import (
     YELLOW,
 )
 
-SUCCESS: Const[str] = f'[{LIME}]' + '\\[✓]' + '[/]'
-WARNING: Const[str] = f'[{YELLOW}]' + '\\[!]' + '[/]'
-ERROR: Const[str] = f'[{RED}]' + '\\[✗]' + '[/]'
-INFO: Const[str] = f'[{CYAN}]' + '\\[i]' + '[/]'
-NOTE: Const[str] = f'[{GRAY}]' + '\\[#]' + '[/]'
+SUCCESS: Const[str] = f'[{LIME} bold]' + '\\[✓]' + '[/]'
+WARNING: Const[str] = f'[{YELLOW} bold]' + '\\[!]' + '[/]'
+ERROR: Const[str] = f'[{RED} bold]' + '\\[✗]' + '[/]'
+INFO: Const[str] = f'[{CYAN} bold]' + '\\[i]' + '[/]'
+NOTE: Const[str] = f'[{GRAY} bold]' + '\\[#]' + '[/]'

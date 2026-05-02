@@ -26,5 +26,5 @@ def use_plural(n: int, singular: str, plural: str | None = None, /) -> str:
         return f'{n} {singular}'
     return f'{n} {plural or singular + 's'}'
 
-def use_brackets(text: str, color: str, *, lsymbol: str = '[', rsymbol: str = ']') -> str:
+def use_brackets(text: str, color: str, *, lsymbol: str = '\\[', rsymbol: str = ']') -> str:
     return f'{color}{lsymbol}{text}{rsymbol}[/]'
