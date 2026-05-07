@@ -1,7 +1,7 @@
 
 [project]
 name = "designkit-utils"
-version = "0.1.0"
+version = "0.4.0"
 description = "DesignKit's utilities. [main: designkit]"
 readme = "README.md"
 requires-python = ">=3.14"
@@ -26,10 +26,10 @@ classifiers = [
     "Programming Language :: Python :: 3.14"
 ]
 
-# [project.urls]
-# Homepage = "https://github.com/sheniey/designkit-utils"
-# Repository = "https://github.com/sheniey/designkit-utils"
-# Issues = "https://github.com/sheniey/designkit-utils/issues"
+[project.urls]
+Homepage = "https://github.com/sheniey/designkit-utils"
+Repository = "https://github.com/sheniey/designkit-utils"
+Issues = "https://github.com/sheniey/designkit-utils/issues"
 
 [build-system]
 requires = ["setuptools", "wheel"]

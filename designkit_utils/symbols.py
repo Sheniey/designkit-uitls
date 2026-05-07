@@ -9,8 +9,14 @@ from .colors import (
     YELLOW,
 )
 
-SUCCESS: Const[str] = f'[{LIME} bold]' + '\\[✓]' + '[/]'
-WARNING: Const[str] = f'[{YELLOW} bold]' + '\\[!]' + '[/]'
-ERROR: Const[str] = f'[{RED} bold]' + '\\[✗]' + '[/]'
-INFO: Const[str] = f'[{CYAN} bold]' + '\\[i]' + '[/]'
-NOTE: Const[str] = f'[{GRAY} bold]' + '\\[#]' + '[/]'
+SUCCESS_SYMBOL: Const[str] = '\\[✓]'
+WARNING_SYMBOL: Const[str] = '\\[!]'
+ERROR_SYMBOL: Const[str] = '\\[✗]'
+INFO_SYMBOL: Const[str] = '\\[i]'
+NOTE_SYMBOL: Const[str] = '\\[#]'
+
+SUCCESS: Const[str] = f'[{LIME} bold]' + SUCCESS_SYMBOL + '[/]'
+WARNING: Const[str] = f'[{YELLOW} bold]' + WARNING_SYMBOL + '[/]'
+ERROR: Const[str] = f'[{RED} bold]' + ERROR_SYMBOL + '[/]'
+INFO: Const[str] = f'[{CYAN} bold]' + INFO_SYMBOL + '[/]'
+NOTE: Const[str] = f'[{GRAY} bold]' + NOTE_SYMBOL + '[/]'
