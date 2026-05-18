@@ -1,7 +1,7 @@
 
 [project]
 name = "designkit-utils"
-version = "0.5.1"
+version = "0.5.2"
 description = "DesignKit's utilities. [main: designkit]"
 readme = "README.md"
 requires-python = ">=3.14"
@@ -9,7 +9,9 @@ license.text = "MIT License"
 authors = [
     { name = "Sheñey", email = "sheneyby2010@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "rich"
+]
 keywords = [
     "design",
     "pattern",
