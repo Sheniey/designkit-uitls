@@ -10,12 +10,14 @@ from .colors import (
 )
 
 SUCCESS_SYMBOL: Const[str] = '\\[✓]'
+PENDING_SYMBOL: Const[str] = '\\[~]'
 WARNING_SYMBOL: Const[str] = '\\[!]'
 ERROR_SYMBOL: Const[str] = '\\[✗]'
 INFO_SYMBOL: Const[str] = '\\[i]'
 NOTE_SYMBOL: Const[str] = '\\[#]'
 
 SUCCESS: Const[str] = f'[{LIME} bold]' + SUCCESS_SYMBOL + '[/]'
+PENDING: Const[str] = f'[{CYAN} bold]' + PENDING_SYMBOL + '[/]'
 WARNING: Const[str] = f'[{YELLOW} bold]' + WARNING_SYMBOL + '[/]'
 ERROR: Const[str] = f'[{RED} bold]' + ERROR_SYMBOL + '[/]'
 INFO: Const[str] = f'[{CYAN} bold]' + INFO_SYMBOL + '[/]'
