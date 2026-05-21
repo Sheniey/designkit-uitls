@@ -3,6 +3,8 @@ from . import (
     colors,
     symbols,
     extras,
-    hooks
+    hooks,
+    generators,
+    docs
 )
 from .shared import console
